@@ -1,0 +1,15 @@
+{
+  "type": "cucumber:shaped_tag",
+  "pattern": [
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "geodeopolis:copper_shard"
+    }
+  },
+  "result": {
+    "tag": "forge:ingots/copper",
+    "count": 2
+  }
+}

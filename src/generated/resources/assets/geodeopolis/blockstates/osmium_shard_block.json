@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "geodeopolis:block/osmium_shard_block"
+    }
+  }
+}

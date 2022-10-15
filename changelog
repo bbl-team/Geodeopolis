@@ -1,0 +1,11 @@
+Geodeopolis
+
+How To Build
+
+Custom budding class per ore
+6 blocks, one item
+DateGen ModBlockState, ModBlock Tag, Mod Item Model
+Manual loot table (6)
+Manual Recipe (1)
+Lang (7)
+Textures

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "geodeopolis:block/copper_shard_block"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "cucumber:shaped_tag",
+  "pattern": [
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "geodeopolis:uranium_shard"
+    }
+  },
+  "result": {
+    "tag": "forge:ingots/uranium",
+    "count": 2
+  }
+}

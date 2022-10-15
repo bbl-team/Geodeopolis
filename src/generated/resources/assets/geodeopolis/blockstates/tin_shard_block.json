@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "geodeopolis:block/tin_shard_block"
+    }
+  }
+}

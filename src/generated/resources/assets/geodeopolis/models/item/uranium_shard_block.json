@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "geodeopolis:block/uranium_shard_block"
+  }
+}
