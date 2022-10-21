@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "geodeopolis:block/diamond_shard_block"
+    }
+  }
+}

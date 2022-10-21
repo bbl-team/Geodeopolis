@@ -29,6 +29,41 @@ public class ModBlockStatesProvider extends BlockStateProvider {
         directionalBlock(ModBlocks.LARGE_TIN_BUD.get(), models().cross("large_tin_bud", modLoc("block/large_tin_bud")).renderType("cutout"));
         directionalBlock(ModBlocks.TIN_CLUSTER.get(), models().cross("tin_cluster", modLoc("block/tin_cluster")).renderType("cutout"));
        
+        simpleBlock(ModBlocks.BUDDING_COAL.get());
+        simpleBlock(ModBlocks.COAL_SHARD_BLOCK.get());
+        directionalBlock(ModBlocks.SMALL_COAL_BUD.get(), models().cross("small_coal_bud", modLoc("block/small_coal_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.MEDIUM_COAL_BUD.get(), models().cross("medium_coal_bud", modLoc("block/medium_coal_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.LARGE_COAL_BUD.get(), models().cross("large_coal_bud", modLoc("block/large_coal_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.COAL_CLUSTER.get(), models().cross("coal_cluster", modLoc("block/coal_cluster")).renderType("cutout"));
+       
+        simpleBlock(ModBlocks.BUDDING_REDSTONE.get());
+        simpleBlock(ModBlocks.REDSTONE_SHARD_BLOCK.get());
+        directionalBlock(ModBlocks.SMALL_REDSTONE_BUD.get(), models().cross("small_redstone_bud", modLoc("block/small_redstone_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.MEDIUM_REDSTONE_BUD.get(), models().cross("medium_redstone_bud", modLoc("block/medium_redstone_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.LARGE_REDSTONE_BUD.get(), models().cross("large_redstone_bud", modLoc("block/large_redstone_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.REDSTONE_CLUSTER.get(), models().cross("redstone_cluster", modLoc("block/redstone_cluster")).renderType("cutout"));
+       
+        simpleBlock(ModBlocks.BUDDING_QUARTZ.get());
+        simpleBlock(ModBlocks.QUARTZ_SHARD_BLOCK.get());
+        directionalBlock(ModBlocks.SMALL_QUARTZ_BUD.get(), models().cross("small_quartz_bud", modLoc("block/small_quartz_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.MEDIUM_QUARTZ_BUD.get(), models().cross("medium_quartz_bud", modLoc("block/medium_quartz_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.LARGE_QUARTZ_BUD.get(), models().cross("large_quartz_bud", modLoc("block/large_quartz_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.QUARTZ_CLUSTER.get(), models().cross("quartz_cluster", modLoc("block/quartz_cluster")).renderType("cutout"));
+       
+        simpleBlock(ModBlocks.BUDDING_DIAMOND.get());
+        simpleBlock(ModBlocks.DIAMOND_SHARD_BLOCK.get());
+        directionalBlock(ModBlocks.SMALL_DIAMOND_BUD.get(), models().cross("small_diamond_bud", modLoc("block/small_diamond_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.MEDIUM_DIAMOND_BUD.get(), models().cross("medium_diamond_bud", modLoc("block/medium_diamond_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.LARGE_DIAMOND_BUD.get(), models().cross("large_diamond_bud", modLoc("block/large_diamond_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.DIAMOND_CLUSTER.get(), models().cross("diamond_cluster", modLoc("block/diamond_cluster")).renderType("cutout"));
+       
+        simpleBlock(ModBlocks.BUDDING_EMERALD.get());
+        simpleBlock(ModBlocks.EMERALD_SHARD_BLOCK.get());
+        directionalBlock(ModBlocks.SMALL_EMERALD_BUD.get(), models().cross("small_emerald_bud", modLoc("block/small_emerald_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.MEDIUM_EMERALD_BUD.get(), models().cross("medium_emerald_bud", modLoc("block/medium_emerald_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.LARGE_EMERALD_BUD.get(), models().cross("large_emerald_bud", modLoc("block/large_emerald_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.EMERALD_CLUSTER.get(), models().cross("emerald_cluster", modLoc("block/emerald_cluster")).renderType("cutout"));
+       
         simpleBlock(ModBlocks.BUDDING_COPPER.get());
         simpleBlock(ModBlocks.COPPER_SHARD_BLOCK.get());
         directionalBlock(ModBlocks.SMALL_COPPER_BUD.get(), models().cross("small_copper_bud", modLoc("block/small_copper_bud")).renderType("cutout"));
