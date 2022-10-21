@@ -39,7 +39,22 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.SILVER_SHARD_BLOCK.get())
         
                 .add(ModBlocks.BUDDING_URANIUM.get())
-                .add(ModBlocks.URANIUM_SHARD_BLOCK.get());
+                .add(ModBlocks.URANIUM_SHARD_BLOCK.get())        
+        
+                .add(ModBlocks.BUDDING_COAL.get())
+                .add(ModBlocks.COAL_SHARD_BLOCK.get())    
+                
+                .add(ModBlocks.BUDDING_REDSTONE.get())
+                .add(ModBlocks.REDSTONE_SHARD_BLOCK.get())     
+                
+                .add(ModBlocks.BUDDING_QUARTZ.get())
+                .add(ModBlocks.QUARTZ_SHARD_BLOCK.get())   
+                
+                .add(ModBlocks.BUDDING_DIAMOND.get())
+                .add(ModBlocks.DIAMOND_SHARD_BLOCK.get())
+                
+                .add(ModBlocks.BUDDING_EMERALD.get())
+                .add(ModBlocks.EMERALD_SHARD_BLOCK.get());
 
 
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
@@ -49,7 +64,42 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.LARGE_TIN_BUD.get())
                 .add(ModBlocks.TIN_CLUSTER.get())
                 .add(ModBlocks.BUDDING_TIN.get())
-                .add(ModBlocks.TIN_SHARD_BLOCK.get() )        
+                .add(ModBlocks.TIN_SHARD_BLOCK.get())     
+
+                .add(ModBlocks.SMALL_COAL_BUD.get())
+                .add(ModBlocks.MEDIUM_COAL_BUD.get())
+                .add(ModBlocks.LARGE_COAL_BUD.get())
+                .add(ModBlocks.COAL_CLUSTER.get())
+                .add(ModBlocks.BUDDING_COAL.get())
+                .add(ModBlocks.COAL_SHARD_BLOCK.get())     
+
+                .add(ModBlocks.SMALL_REDSTONE_BUD.get())
+                .add(ModBlocks.MEDIUM_REDSTONE_BUD.get())
+                .add(ModBlocks.LARGE_REDSTONE_BUD.get())
+                .add(ModBlocks.REDSTONE_CLUSTER.get())
+                .add(ModBlocks.BUDDING_REDSTONE.get())
+                .add(ModBlocks.REDSTONE_SHARD_BLOCK.get())     
+
+                .add(ModBlocks.SMALL_QUARTZ_BUD.get())
+                .add(ModBlocks.MEDIUM_QUARTZ_BUD.get())
+                .add(ModBlocks.LARGE_QUARTZ_BUD.get())
+                .add(ModBlocks.QUARTZ_CLUSTER.get())
+                .add(ModBlocks.BUDDING_QUARTZ.get())
+                .add(ModBlocks.QUARTZ_SHARD_BLOCK.get())     
+
+                .add(ModBlocks.SMALL_DIAMOND_BUD.get())
+                .add(ModBlocks.MEDIUM_DIAMOND_BUD.get())
+                .add(ModBlocks.LARGE_DIAMOND_BUD.get())
+                .add(ModBlocks.DIAMOND_CLUSTER.get())
+                .add(ModBlocks.BUDDING_DIAMOND.get())
+                .add(ModBlocks.DIAMOND_SHARD_BLOCK.get())     
+
+                .add(ModBlocks.SMALL_EMERALD_BUD.get())
+                .add(ModBlocks.MEDIUM_EMERALD_BUD.get())
+                .add(ModBlocks.LARGE_EMERALD_BUD.get())
+                .add(ModBlocks.EMERALD_CLUSTER.get())
+                .add(ModBlocks.BUDDING_EMERALD.get())
+                .add(ModBlocks.EMERALD_SHARD_BLOCK.get())        
         
                 .add(ModBlocks.SMALL_COPPER_BUD.get())
                 .add(ModBlocks.MEDIUM_COPPER_BUD.get())

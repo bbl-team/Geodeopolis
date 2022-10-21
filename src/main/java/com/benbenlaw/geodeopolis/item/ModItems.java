@@ -37,6 +37,21 @@ public class ModItems {
     public static final RegistryObject<Item> URANIUM_SHARD = ITEMS.register("uranium_shard",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
 
+    public static final RegistryObject<Item> COAL_SHARD = ITEMS.register("coal_shard",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
+
+    public static final RegistryObject<Item> REDSTONE_SHARD = ITEMS.register("redstone_shard",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
+
+    public static final RegistryObject<Item> QUARTZ_SHARD = ITEMS.register("quartz_shard",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
+
+    public static final RegistryObject<Item> DIAMOND_SHARD = ITEMS.register("diamond_shard",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
+
+    public static final RegistryObject<Item> EMERALD_SHARD = ITEMS.register("emerald_shard",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
+
 
 
 

@@ -18,7 +18,7 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 
 
 group = 'com.benbenlaw.geodeopolis'
-version = '1.0'
+version = '2.0'
 
 java {
     archivesBaseName = 'geodeopolis'

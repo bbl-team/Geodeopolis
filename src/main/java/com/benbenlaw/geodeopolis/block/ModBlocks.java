@@ -47,6 +47,106 @@ public class ModBlocks {
     public static final RegistryObject<Block> SMALL_TIN_BUD = registerBlock("small_tin_bud",
             () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(TIN_CLUSTER.get()).sound(SoundType.SMALL_AMETHYST_BUD).lightLevel((state) -> 2)));
 
+
+
+    public static final RegistryObject<Block> BUDDING_COAL = registerBlock("budding_coal",
+            () -> new BuddingCoalBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).randomTicks().requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> COAL_SHARD_BLOCK = registerBlock("coal_shard_block",
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> COAL_CLUSTER = registerBlock("coal_cluster",
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5f).lightLevel((state) -> 5)));
+
+    public static final RegistryObject<Block> LARGE_COAL_BUD = registerBlock("large_coal_bud",
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(COAL_CLUSTER.get()).sound(SoundType.LARGE_AMETHYST_BUD).lightLevel((state) -> 4)));
+
+    public static final RegistryObject<Block> MEDIUM_COAL_BUD = registerBlock("medium_coal_bud",
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.copy(COAL_CLUSTER.get()).sound(SoundType.MEDIUM_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+    public static final RegistryObject<Block> SMALL_COAL_BUD = registerBlock("small_coal_bud",
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(COAL_CLUSTER.get()).sound(SoundType.SMALL_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+
+
+    public static final RegistryObject<Block> BUDDING_REDSTONE = registerBlock("budding_redstone",
+            () -> new BuddingRedstoneBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).randomTicks().requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> REDSTONE_SHARD_BLOCK = registerBlock("redstone_shard_block",
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> REDSTONE_CLUSTER = registerBlock("redstone_cluster",
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5f).lightLevel((state) -> 5)));
+
+    public static final RegistryObject<Block> LARGE_REDSTONE_BUD = registerBlock("large_redstone_bud",
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(REDSTONE_CLUSTER.get()).sound(SoundType.LARGE_AMETHYST_BUD).lightLevel((state) -> 4)));
+
+    public static final RegistryObject<Block> MEDIUM_REDSTONE_BUD = registerBlock("medium_redstone_bud",
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.copy(REDSTONE_CLUSTER.get()).sound(SoundType.MEDIUM_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+    public static final RegistryObject<Block> SMALL_REDSTONE_BUD = registerBlock("small_redstone_bud",
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(REDSTONE_CLUSTER.get()).sound(SoundType.SMALL_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+
+
+    public static final RegistryObject<Block> BUDDING_QUARTZ = registerBlock("budding_quartz",
+            () -> new BuddingQuartzBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).randomTicks().requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> QUARTZ_SHARD_BLOCK = registerBlock("quartz_shard_block",
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> QUARTZ_CLUSTER = registerBlock("quartz_cluster",
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5f).lightLevel((state) -> 5)));
+
+    public static final RegistryObject<Block> LARGE_QUARTZ_BUD = registerBlock("large_quartz_bud",
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(QUARTZ_CLUSTER.get()).sound(SoundType.LARGE_AMETHYST_BUD).lightLevel((state) -> 4)));
+
+    public static final RegistryObject<Block> MEDIUM_QUARTZ_BUD = registerBlock("medium_quartz_bud",
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.copy(QUARTZ_CLUSTER.get()).sound(SoundType.MEDIUM_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+    public static final RegistryObject<Block> SMALL_QUARTZ_BUD = registerBlock("small_quartz_bud",
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(QUARTZ_CLUSTER.get()).sound(SoundType.SMALL_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+
+
+    public static final RegistryObject<Block> BUDDING_DIAMOND = registerBlock("budding_diamond",
+            () -> new BuddingDiamondBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).randomTicks().requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> DIAMOND_SHARD_BLOCK = registerBlock("diamond_shard_block",
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> DIAMOND_CLUSTER = registerBlock("diamond_cluster",
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5f).lightLevel((state) -> 5)));
+
+    public static final RegistryObject<Block> LARGE_DIAMOND_BUD = registerBlock("large_diamond_bud",
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(DIAMOND_CLUSTER.get()).sound(SoundType.LARGE_AMETHYST_BUD).lightLevel((state) -> 4)));
+
+    public static final RegistryObject<Block> MEDIUM_DIAMOND_BUD = registerBlock("medium_diamond_bud",
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.copy(DIAMOND_CLUSTER.get()).sound(SoundType.MEDIUM_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+    public static final RegistryObject<Block> SMALL_DIAMOND_BUD = registerBlock("small_diamond_bud",
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(DIAMOND_CLUSTER.get()).sound(SoundType.SMALL_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+    
+    
+    public static final RegistryObject<Block> BUDDING_EMERALD = registerBlock("budding_emerald",
+            () -> new BuddingEmeraldBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).randomTicks().requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> EMERALD_SHARD_BLOCK = registerBlock("emerald_shard_block",
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> EMERALD_CLUSTER = registerBlock("emerald_cluster",
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5f).lightLevel((state) -> 5)));
+
+    public static final RegistryObject<Block> LARGE_EMERALD_BUD = registerBlock("large_emerald_bud",
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(EMERALD_CLUSTER.get()).sound(SoundType.LARGE_AMETHYST_BUD).lightLevel((state) -> 4)));
+
+    public static final RegistryObject<Block> MEDIUM_EMERALD_BUD = registerBlock("medium_emerald_bud",
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.copy(EMERALD_CLUSTER.get()).sound(SoundType.MEDIUM_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+    public static final RegistryObject<Block> SMALL_EMERALD_BUD = registerBlock("small_emerald_bud",
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(EMERALD_CLUSTER.get()).sound(SoundType.SMALL_AMETHYST_BUD).lightLevel((state) -> 2)));
+
     
     
     public static final RegistryObject<Block> BUDDING_URANIUM = registerBlock("budding_uranium",

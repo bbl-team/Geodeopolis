@@ -32,6 +32,46 @@ public class ModItemModelProvider extends ItemModelProvider {
         shardItem(ModBlocks.SMALL_TIN_BUD);
         shardItem(ModBlocks.MEDIUM_TIN_BUD);
         shardItem(ModBlocks.LARGE_TIN_BUD);
+
+        simpleItem(ModItems.DIAMOND_SHARD);
+        simpleBlock(ModBlocks.BUDDING_DIAMOND);
+        simpleBlock(ModBlocks.DIAMOND_SHARD_BLOCK);
+        shardItem(ModBlocks.DIAMOND_CLUSTER);
+        shardItem(ModBlocks.SMALL_DIAMOND_BUD);
+        shardItem(ModBlocks.MEDIUM_DIAMOND_BUD);
+        shardItem(ModBlocks.LARGE_DIAMOND_BUD);
+
+        simpleItem(ModItems.EMERALD_SHARD);
+        simpleBlock(ModBlocks.BUDDING_EMERALD);
+        simpleBlock(ModBlocks.EMERALD_SHARD_BLOCK);
+        shardItem(ModBlocks.EMERALD_CLUSTER);
+        shardItem(ModBlocks.SMALL_EMERALD_BUD);
+        shardItem(ModBlocks.MEDIUM_EMERALD_BUD);
+        shardItem(ModBlocks.LARGE_EMERALD_BUD);
+
+        simpleItem(ModItems.QUARTZ_SHARD);
+        simpleBlock(ModBlocks.BUDDING_QUARTZ);
+        simpleBlock(ModBlocks.QUARTZ_SHARD_BLOCK);
+        shardItem(ModBlocks.QUARTZ_CLUSTER);
+        shardItem(ModBlocks.SMALL_QUARTZ_BUD);
+        shardItem(ModBlocks.MEDIUM_QUARTZ_BUD);
+        shardItem(ModBlocks.LARGE_QUARTZ_BUD);
+
+        simpleItem(ModItems.REDSTONE_SHARD);
+        simpleBlock(ModBlocks.BUDDING_REDSTONE);
+        simpleBlock(ModBlocks.REDSTONE_SHARD_BLOCK);
+        shardItem(ModBlocks.REDSTONE_CLUSTER);
+        shardItem(ModBlocks.SMALL_REDSTONE_BUD);
+        shardItem(ModBlocks.MEDIUM_REDSTONE_BUD);
+        shardItem(ModBlocks.LARGE_REDSTONE_BUD);
+
+        simpleItem(ModItems.COAL_SHARD);
+        simpleBlock(ModBlocks.BUDDING_COAL);
+        simpleBlock(ModBlocks.COAL_SHARD_BLOCK);
+        shardItem(ModBlocks.COAL_CLUSTER);
+        shardItem(ModBlocks.SMALL_COAL_BUD);
+        shardItem(ModBlocks.MEDIUM_COAL_BUD);
+        shardItem(ModBlocks.LARGE_COAL_BUD);
         
         simpleItem(ModItems.COPPER_SHARD);
         simpleBlock(ModBlocks.BUDDING_COPPER);

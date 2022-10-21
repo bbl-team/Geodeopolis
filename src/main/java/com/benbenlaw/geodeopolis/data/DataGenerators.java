@@ -20,5 +20,6 @@ public class DataGenerators {
         generator.addProvider(true, new ModBlockStatesProvider(generator, existingFileHelper));
         generator.addProvider(true, new ModItemModelProvider(generator, existingFileHelper));
         generator.addProvider(true, new ModBlockTagProvider(generator, Geodeopolis.MOD_ID, existingFileHelper));
+        generator.addProvider(true, new ModLootTableProvider(generator));
     }
 }
