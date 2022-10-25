@@ -25,6 +25,8 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
 
+        simpleItem(ModItems.CLUSTER_TEMPLATE);
+
         simpleItem(ModItems.TIN_SHARD);
         simpleBlock(ModBlocks.BUDDING_TIN);
         simpleBlock(ModBlocks.TIN_SHARD_BLOCK);
@@ -32,6 +34,22 @@ public class ModItemModelProvider extends ItemModelProvider {
         shardItem(ModBlocks.SMALL_TIN_BUD);
         shardItem(ModBlocks.MEDIUM_TIN_BUD);
         shardItem(ModBlocks.LARGE_TIN_BUD);
+
+        simpleItem(ModItems.GLOWSTONE_SHARD);
+        simpleBlock(ModBlocks.BUDDING_GLOWSTONE);
+        simpleBlock(ModBlocks.GLOWSTONE_SHARD_BLOCK);
+        shardItem(ModBlocks.GLOWSTONE_CLUSTER);
+        shardItem(ModBlocks.SMALL_GLOWSTONE_BUD);
+        shardItem(ModBlocks.MEDIUM_GLOWSTONE_BUD);
+        shardItem(ModBlocks.LARGE_GLOWSTONE_BUD);
+
+        simpleItem(ModItems.ALUMINUM_SHARD);
+        simpleBlock(ModBlocks.BUDDING_ALUMINUM);
+        simpleBlock(ModBlocks.ALUMINUM_SHARD_BLOCK);
+        shardItem(ModBlocks.ALUMINUM_CLUSTER);
+        shardItem(ModBlocks.SMALL_ALUMINUM_BUD);
+        shardItem(ModBlocks.MEDIUM_ALUMINUM_BUD);
+        shardItem(ModBlocks.LARGE_ALUMINUM_BUD);
 
         simpleItem(ModItems.DIAMOND_SHARD);
         simpleBlock(ModBlocks.BUDDING_DIAMOND);

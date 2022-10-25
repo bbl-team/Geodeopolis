@@ -25,6 +25,32 @@ public class ModBlockLootTables extends BlockLoot {
 
     private void simpleDrops() {
 
+        this.dropSelf(ModBlocks.ALUMINUM_SHARD_BLOCK.get());
+        this.add(ModBlocks.BUDDING_ALUMINUM.get(), (Block) -> noDrop());
+        this.add(ModBlocks.ALUMINUM_CLUSTER.get(), (Block) ->
+                createSilkTouchDispatchTable(Block, LootItem.lootTableItem(ModItems.ALUMINUM_SHARD.get())
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(4.0F)))
+                        .apply(ApplyBonusCount.addOreBonusCount(Enchantments.BLOCK_FORTUNE))
+                        .when(MatchTool.toolMatches(ItemPredicate.Builder.item().of(ItemTags.CLUSTER_MAX_HARVESTABLES)))
+                        .otherwise(applyExplosionDecay(Block, LootItem.lootTableItem(ModItems.ALUMINUM_SHARD.get())
+                                .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2.0F)))))));
+        this.dropWhenSilkTouch(ModBlocks.LARGE_ALUMINUM_BUD.get());
+        this.dropWhenSilkTouch(ModBlocks.MEDIUM_ALUMINUM_BUD.get());
+        this.dropWhenSilkTouch(ModBlocks.SMALL_ALUMINUM_BUD.get());
+        
+        this.dropSelf(ModBlocks.GLOWSTONE_SHARD_BLOCK.get());
+        this.add(ModBlocks.BUDDING_GLOWSTONE.get(), (Block) -> noDrop());
+        this.add(ModBlocks.GLOWSTONE_CLUSTER.get(), (Block) ->
+                createSilkTouchDispatchTable(Block, LootItem.lootTableItem(ModItems.GLOWSTONE_SHARD.get())
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(4.0F)))
+                        .apply(ApplyBonusCount.addOreBonusCount(Enchantments.BLOCK_FORTUNE))
+                        .when(MatchTool.toolMatches(ItemPredicate.Builder.item().of(ItemTags.CLUSTER_MAX_HARVESTABLES)))
+                        .otherwise(applyExplosionDecay(Block, LootItem.lootTableItem(ModItems.GLOWSTONE_SHARD.get())
+                                .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2.0F)))))));
+        this.dropWhenSilkTouch(ModBlocks.LARGE_GLOWSTONE_BUD.get());
+        this.dropWhenSilkTouch(ModBlocks.MEDIUM_GLOWSTONE_BUD.get());
+        this.dropWhenSilkTouch(ModBlocks.SMALL_GLOWSTONE_BUD.get());
+
         this.dropSelf(ModBlocks.COPPER_SHARD_BLOCK.get());
         this.add(ModBlocks.BUDDING_COPPER.get(), (Block) -> noDrop());
         this.add(ModBlocks.COPPER_CLUSTER.get(), (Block) ->

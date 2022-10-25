@@ -25,6 +25,10 @@
     "geodeopolis:budding_diamond",
     "geodeopolis:diamond_shard_block",
     "geodeopolis:budding_emerald",
-    "geodeopolis:emerald_shard_block"
+    "geodeopolis:emerald_shard_block",
+    "geodeopolis:budding_aluminum",
+    "geodeopolis:aluminum_shard_block",
+    "geodeopolis:budding_glowstone",
+    "geodeopolis:glowstone_shard_block"
   ]
 }

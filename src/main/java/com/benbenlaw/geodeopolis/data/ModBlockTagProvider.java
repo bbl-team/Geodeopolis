@@ -54,7 +54,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.DIAMOND_SHARD_BLOCK.get())
                 
                 .add(ModBlocks.BUDDING_EMERALD.get())
-                .add(ModBlocks.EMERALD_SHARD_BLOCK.get());
+                .add(ModBlocks.EMERALD_SHARD_BLOCK.get()) 
+        
+                .add(ModBlocks.BUDDING_ALUMINUM.get())
+                .add(ModBlocks.ALUMINUM_SHARD_BLOCK.get())  
+                
+                .add(ModBlocks.BUDDING_GLOWSTONE.get())
+                .add(ModBlocks.GLOWSTONE_SHARD_BLOCK.get());
 
 
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
@@ -64,7 +70,21 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.LARGE_TIN_BUD.get())
                 .add(ModBlocks.TIN_CLUSTER.get())
                 .add(ModBlocks.BUDDING_TIN.get())
-                .add(ModBlocks.TIN_SHARD_BLOCK.get())     
+                .add(ModBlocks.TIN_SHARD_BLOCK.get()) 
+
+                .add(ModBlocks.SMALL_ALUMINUM_BUD.get())
+                .add(ModBlocks.MEDIUM_ALUMINUM_BUD.get())
+                .add(ModBlocks.LARGE_ALUMINUM_BUD.get())
+                .add(ModBlocks.ALUMINUM_CLUSTER.get())
+                .add(ModBlocks.BUDDING_ALUMINUM.get())
+                .add(ModBlocks.ALUMINUM_SHARD_BLOCK.get()) 
+
+                .add(ModBlocks.SMALL_GLOWSTONE_BUD.get())
+                .add(ModBlocks.MEDIUM_GLOWSTONE_BUD.get())
+                .add(ModBlocks.LARGE_GLOWSTONE_BUD.get())
+                .add(ModBlocks.GLOWSTONE_CLUSTER.get())
+                .add(ModBlocks.BUDDING_GLOWSTONE.get())
+                .add(ModBlocks.GLOWSTONE_SHARD_BLOCK.get())     
 
                 .add(ModBlocks.SMALL_COAL_BUD.get())
                 .add(ModBlocks.MEDIUM_COAL_BUD.get())

@@ -1,0 +1,9 @@
+{
+    "type":"immersiveengineering:cloche",
+    "conditions": [{"type": "forge:mod_loaded", "modid": "immersiveengineering"}],
+    "input":{"item":"geodeopolis:cluster_template"},
+    "render":{"type":"generic","block":"geodeopolis:emerald_cluster"},
+    "results":[{"item":"geodeopolis:emerald_cluster"}],
+    "soil":{"item":"geodeopolis:budding_emerald"},
+    "time":1000
+}

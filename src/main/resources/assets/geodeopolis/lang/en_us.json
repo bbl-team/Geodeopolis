@@ -1,4 +1,23 @@
 {
+
+  "item.geodeopolis.cluster_template": "Cluster Template",
+
+  "item.geodeopolis.aluminum_shard": "Aluminum Shard",
+  "block.geodeopolis.budding_aluminum": "Budding Aluminum",
+  "block.geodeopolis.aluminum_shard_block": "Aluminum Shard Block",
+  "block.geodeopolis.small_aluminum_bud": "Small Aluminum Bud",
+  "block.geodeopolis.medium_aluminum_bud": "Medium Aluminum Bud",
+  "block.geodeopolis.large_aluminum_bud": "Large Aluminum Bud",
+  "block.geodeopolis.aluminum_cluster": "Aluminum Cluster", 
+  
+  "item.geodeopolis.glowstone_shard": "Glowstone Shard",
+  "block.geodeopolis.budding_glowstone": "Budding Glowstone",
+  "block.geodeopolis.glowstone_shard_block": "Glowstone Shard Block",
+  "block.geodeopolis.small_glowstone_bud": "Small Glowstone Bud",
+  "block.geodeopolis.medium_glowstone_bud": "Medium Glowstone Bud",
+  "block.geodeopolis.large_glowstone_bud": "Large Glowstone Bud",
+  "block.geodeopolis.glowstone_cluster": "Glowstone Cluster", 
+  
   "item.geodeopolis.tin_shard": "Tin Shard",
   "block.geodeopolis.budding_tin": "Budding Tin",
   "block.geodeopolis.tin_shard_block": "Tin Shard Block",

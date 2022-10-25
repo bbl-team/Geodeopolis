@@ -1,0 +1,7 @@
+{
+    "type":"immersiveengineering:crusher",
+    "energy":3200,
+    "input":{"item":"geodeopolis:redstone_shard_block"},
+    "result":{"count":4,"item":"geodeopolis:redstone_shard"},
+    "secondaries":[]
+}

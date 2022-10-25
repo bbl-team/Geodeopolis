@@ -13,6 +13,16 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Geodeopolis.MOD_ID);
 
+
+    public static final RegistryObject<Item> CLUSTER_TEMPLATE = ITEMS.register("cluster_template",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
+
+    public static final RegistryObject<Item> GLOWSTONE_SHARD = ITEMS.register("glowstone_shard",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
+
+    public static final RegistryObject<Item> ALUMINUM_SHARD = ITEMS.register("aluminum_shard",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
+
     public static final RegistryObject<Item> TIN_SHARD = ITEMS.register("tin_shard",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
 

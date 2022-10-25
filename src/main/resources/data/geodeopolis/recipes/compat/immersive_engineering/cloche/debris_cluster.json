@@ -1,0 +1,9 @@
+{
+    "type":"immersiveengineering:cloche",
+    "conditions": [{"type": "forge:mod_loaded", "modid": "immersiveengineering"}],
+    "input":{"item":"geodeopolis:cluster_template"},
+    "render":{"type":"generic","block":"geodeopolis:debris_cluster"},
+    "results":[{"item":"geodeopolis:debris_cluster"}],
+    "soil":{"item":"geodeopolis:budding_debris"},
+    "time":1000
+}

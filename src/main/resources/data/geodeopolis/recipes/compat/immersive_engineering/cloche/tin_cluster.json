@@ -1,0 +1,9 @@
+{
+    "type":"immersiveengineering:cloche",
+    "conditions": [{"type": "forge:mod_loaded", "modid": "immersiveengineering"}],
+    "input":{"item":"geodeopolis:cluster_template"},
+    "render":{"type":"generic","block":"geodeopolis:tin_cluster"},
+    "results":[{"item":"geodeopolis:tin_cluster"}],
+    "soil":{"item":"geodeopolis:budding_tin"},
+    "time":1000
+}

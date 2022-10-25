@@ -1,0 +1,8 @@
+{
+    "type":"immersiveengineering:crusher",
+    "conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:dusts/diamond"}}],
+    "energy":3000,
+    "input":{"item":"geodeopolis:diamond_cluster"},
+    "result":{"base_ingredient":{"tag":"forge:dusts/diamond"},
+    "count":2},
+    "secondaries":[]}

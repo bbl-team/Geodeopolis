@@ -1,0 +1,9 @@
+{
+    "type":"immersiveengineering:cloche",
+    "conditions": [{"type": "forge:mod_loaded", "modid": "immersiveengineering"}],
+    "input":{"item":"geodeopolis:cluster_template"},
+    "render":{"type":"generic","block":"minecraft:amethyst_cluster"},
+    "results":[{"item":"minecraft:amethyst_cluster"}],
+    "soil":{"item":"minecraft:budding_amethyst"},
+    "time":1000
+}

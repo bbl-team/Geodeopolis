@@ -1,15 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "SSS"
+    "SS",
+    "SS"
   ],
   "key": {
     "S": {
-      "item": "geodeopolis:debris_shard"
+      "item": "geodeopolis:aluminum_shard"
     }
   },
   "result": {
-    "item": "minecraft:netherite_scrap",
-    "count": 2
+    "item": "geodeopolis:aluminum_shard_block"
   }
 }

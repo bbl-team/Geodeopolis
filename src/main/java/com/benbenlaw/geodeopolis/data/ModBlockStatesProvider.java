@@ -29,6 +29,20 @@ public class ModBlockStatesProvider extends BlockStateProvider {
         directionalBlock(ModBlocks.LARGE_TIN_BUD.get(), models().cross("large_tin_bud", modLoc("block/large_tin_bud")).renderType("cutout"));
         directionalBlock(ModBlocks.TIN_CLUSTER.get(), models().cross("tin_cluster", modLoc("block/tin_cluster")).renderType("cutout"));
        
+        simpleBlock(ModBlocks.BUDDING_GLOWSTONE.get());
+        simpleBlock(ModBlocks.GLOWSTONE_SHARD_BLOCK.get());
+        directionalBlock(ModBlocks.SMALL_GLOWSTONE_BUD.get(), models().cross("small_glowstone_bud", modLoc("block/small_glowstone_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.MEDIUM_GLOWSTONE_BUD.get(), models().cross("medium_glowstone_bud", modLoc("block/medium_glowstone_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.LARGE_GLOWSTONE_BUD.get(), models().cross("large_glowstone_bud", modLoc("block/large_glowstone_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.GLOWSTONE_CLUSTER.get(), models().cross("glowstone_cluster", modLoc("block/glowstone_cluster")).renderType("cutout"));
+       
+        simpleBlock(ModBlocks.BUDDING_ALUMINUM.get());
+        simpleBlock(ModBlocks.ALUMINUM_SHARD_BLOCK.get());
+        directionalBlock(ModBlocks.SMALL_ALUMINUM_BUD.get(), models().cross("small_aluminum_bud", modLoc("block/small_aluminum_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.MEDIUM_ALUMINUM_BUD.get(), models().cross("medium_aluminum_bud", modLoc("block/medium_aluminum_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.LARGE_ALUMINUM_BUD.get(), models().cross("large_aluminum_bud", modLoc("block/large_aluminum_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.ALUMINUM_CLUSTER.get(), models().cross("aluminum_cluster", modLoc("block/aluminum_cluster")).renderType("cutout"));
+       
         simpleBlock(ModBlocks.BUDDING_COAL.get());
         simpleBlock(ModBlocks.COAL_SHARD_BLOCK.get());
         directionalBlock(ModBlocks.SMALL_COAL_BUD.get(), models().cross("small_coal_bud", modLoc("block/small_coal_bud")).renderType("cutout"));
