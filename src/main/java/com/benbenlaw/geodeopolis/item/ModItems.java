@@ -17,7 +17,16 @@ public class ModItems {
     public static final RegistryObject<Item> CLUSTER_TEMPLATE = ITEMS.register("cluster_template",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
 
+    public static final RegistryObject<Item> ZINC_SHARD = ITEMS.register("zinc_shard",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
+
     public static final RegistryObject<Item> GLOWSTONE_SHARD = ITEMS.register("glowstone_shard",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
+
+    public static final RegistryObject<Item> LEAD_SHARD = ITEMS.register("lead_shard",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
+
+    public static final RegistryObject<Item> NICKEL_SHARD = ITEMS.register("nickel_shard",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
 
     public static final RegistryObject<Item> ALUMINUM_SHARD = ITEMS.register("aluminum_shard",

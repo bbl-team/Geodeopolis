@@ -1,0 +1,15 @@
+{
+  "type": "cucumber:shaped_tag",
+  "pattern": [
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "geodeopolis:nickel_shard"
+    }
+  },
+  "result": {
+    "tag": "forge:ingots/nickel",
+    "count": 1
+  }
+}

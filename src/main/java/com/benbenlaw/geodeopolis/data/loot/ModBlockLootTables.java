@@ -37,6 +37,19 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropWhenSilkTouch(ModBlocks.LARGE_ALUMINUM_BUD.get());
         this.dropWhenSilkTouch(ModBlocks.MEDIUM_ALUMINUM_BUD.get());
         this.dropWhenSilkTouch(ModBlocks.SMALL_ALUMINUM_BUD.get());
+
+        this.dropSelf(ModBlocks.ZINC_SHARD_BLOCK.get());
+        this.add(ModBlocks.BUDDING_ZINC.get(), (Block) -> noDrop());
+        this.add(ModBlocks.ZINC_CLUSTER.get(), (Block) ->
+                createSilkTouchDispatchTable(Block, LootItem.lootTableItem(ModItems.ZINC_SHARD.get())
+                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(4.0F)))
+                        .apply(ApplyBonusCount.addOreBonusCount(Enchantments.BLOCK_FORTUNE))
+                        .when(MatchTool.toolMatches(ItemPredicate.Builder.item().of(ItemTags.CLUSTER_MAX_HARVESTABLES)))
+                        .otherwise(applyExplosionDecay(Block, LootItem.lootTableItem(ModItems.ZINC_SHARD.get())
+                                .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2.0F)))))));
+        this.dropWhenSilkTouch(ModBlocks.LARGE_ZINC_BUD.get());
+        this.dropWhenSilkTouch(ModBlocks.MEDIUM_ZINC_BUD.get());
+        this.dropWhenSilkTouch(ModBlocks.SMALL_ZINC_BUD.get());
         
         this.dropSelf(ModBlocks.GLOWSTONE_SHARD_BLOCK.get());
         this.add(ModBlocks.BUDDING_GLOWSTONE.get(), (Block) -> noDrop());
@@ -76,6 +89,32 @@ public class ModBlockLootTables extends BlockLoot {
        this.dropWhenSilkTouch(ModBlocks.LARGE_TIN_BUD.get());
        this.dropWhenSilkTouch(ModBlocks.MEDIUM_TIN_BUD.get());
        this.dropWhenSilkTouch(ModBlocks.SMALL_TIN_BUD.get());
+
+        this.dropSelf(ModBlocks.NICKEL_SHARD_BLOCK.get());
+        this.add(ModBlocks.BUDDING_NICKEL.get(), (Block) -> noDrop());
+        this.add(ModBlocks.NICKEL_CLUSTER.get(), (Block) ->
+            createSilkTouchDispatchTable(Block, LootItem.lootTableItem(ModItems.NICKEL_SHARD.get())
+                    .apply(SetItemCountFunction.setCount(ConstantValue.exactly(4.0F)))
+                    .apply(ApplyBonusCount.addOreBonusCount(Enchantments.BLOCK_FORTUNE))
+                    .when(MatchTool.toolMatches(ItemPredicate.Builder.item().of(ItemTags.CLUSTER_MAX_HARVESTABLES)))
+                    .otherwise(applyExplosionDecay(Block, LootItem.lootTableItem(ModItems.NICKEL_SHARD.get())
+                            .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2.0F)))))));
+       this.dropWhenSilkTouch(ModBlocks.LARGE_NICKEL_BUD.get());
+       this.dropWhenSilkTouch(ModBlocks.MEDIUM_NICKEL_BUD.get());
+       this.dropWhenSilkTouch(ModBlocks.SMALL_NICKEL_BUD.get());
+
+        this.dropSelf(ModBlocks.LEAD_SHARD_BLOCK.get());
+        this.add(ModBlocks.BUDDING_LEAD.get(), (Block) -> noDrop());
+        this.add(ModBlocks.LEAD_CLUSTER.get(), (Block) ->
+            createSilkTouchDispatchTable(Block, LootItem.lootTableItem(ModItems.LEAD_SHARD.get())
+                    .apply(SetItemCountFunction.setCount(ConstantValue.exactly(4.0F)))
+                    .apply(ApplyBonusCount.addOreBonusCount(Enchantments.BLOCK_FORTUNE))
+                    .when(MatchTool.toolMatches(ItemPredicate.Builder.item().of(ItemTags.CLUSTER_MAX_HARVESTABLES)))
+                    .otherwise(applyExplosionDecay(Block, LootItem.lootTableItem(ModItems.LEAD_SHARD.get())
+                            .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2.0F)))))));
+       this.dropWhenSilkTouch(ModBlocks.LARGE_LEAD_BUD.get());
+       this.dropWhenSilkTouch(ModBlocks.MEDIUM_LEAD_BUD.get());
+       this.dropWhenSilkTouch(ModBlocks.SMALL_LEAD_BUD.get());
 
         this.dropSelf(ModBlocks.GOLD_SHARD_BLOCK.get());
         this.add(ModBlocks.BUDDING_GOLD.get(), (Block) -> noDrop());

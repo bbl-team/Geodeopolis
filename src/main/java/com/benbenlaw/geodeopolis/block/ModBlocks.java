@@ -48,6 +48,67 @@ public class ModBlocks {
             () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(TIN_CLUSTER.get()).sound(SoundType.SMALL_AMETHYST_BUD).lightLevel((state) -> 2)));
 
 
+
+    public static final RegistryObject<Block> BUDDING_ZINC = registerBlock("budding_zinc",
+            () -> new BuddingZincBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).randomTicks().requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> ZINC_SHARD_BLOCK = registerBlock("zinc_shard_block",
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> ZINC_CLUSTER = registerBlock("zinc_cluster",
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5f).lightLevel((state) -> 5)));
+
+    public static final RegistryObject<Block> LARGE_ZINC_BUD = registerBlock("large_zinc_bud",
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(ZINC_CLUSTER.get()).sound(SoundType.LARGE_AMETHYST_BUD).lightLevel((state) -> 4)));
+
+    public static final RegistryObject<Block> MEDIUM_ZINC_BUD = registerBlock("medium_zinc_bud",
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.copy(ZINC_CLUSTER.get()).sound(SoundType.MEDIUM_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+    public static final RegistryObject<Block> SMALL_ZINC_BUD = registerBlock("small_zinc_bud",
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(ZINC_CLUSTER.get()).sound(SoundType.SMALL_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+
+    
+    public static final RegistryObject<Block> BUDDING_NICKEL = registerBlock("budding_nickel",
+            () -> new BuddingNickelBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).randomTicks().requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> NICKEL_SHARD_BLOCK = registerBlock("nickel_shard_block",
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> NICKEL_CLUSTER = registerBlock("nickel_cluster",
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5f).lightLevel((state) -> 5)));
+
+    public static final RegistryObject<Block> LARGE_NICKEL_BUD = registerBlock("large_nickel_bud",
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(NICKEL_CLUSTER.get()).sound(SoundType.LARGE_AMETHYST_BUD).lightLevel((state) -> 4)));
+
+    public static final RegistryObject<Block> MEDIUM_NICKEL_BUD = registerBlock("medium_nickel_bud",
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.copy(NICKEL_CLUSTER.get()).sound(SoundType.MEDIUM_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+    public static final RegistryObject<Block> SMALL_NICKEL_BUD = registerBlock("small_nickel_bud",
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(NICKEL_CLUSTER.get()).sound(SoundType.SMALL_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+
+    
+    public static final RegistryObject<Block> BUDDING_LEAD = registerBlock("budding_lead",
+            () -> new BuddingLeadBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).randomTicks().requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> LEAD_SHARD_BLOCK = registerBlock("lead_shard_block",
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> LEAD_CLUSTER = registerBlock("lead_cluster",
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5f).lightLevel((state) -> 5)));
+
+    public static final RegistryObject<Block> LARGE_LEAD_BUD = registerBlock("large_lead_bud",
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(LEAD_CLUSTER.get()).sound(SoundType.LARGE_AMETHYST_BUD).lightLevel((state) -> 4)));
+
+    public static final RegistryObject<Block> MEDIUM_LEAD_BUD = registerBlock("medium_lead_bud",
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.copy(LEAD_CLUSTER.get()).sound(SoundType.MEDIUM_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+    public static final RegistryObject<Block> SMALL_LEAD_BUD = registerBlock("small_lead_bud",
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(LEAD_CLUSTER.get()).sound(SoundType.SMALL_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+    
+
     public static final RegistryObject<Block> BUDDING_GLOWSTONE = registerBlock("budding_glowstone",
             () -> new BuddingGlowstoneBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).randomTicks().requiresCorrectToolForDrops()));
 

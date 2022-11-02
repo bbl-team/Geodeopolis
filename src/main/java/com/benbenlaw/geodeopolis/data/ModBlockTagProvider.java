@@ -18,7 +18,10 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.BUDDING_TIN.get())
-                .add(ModBlocks.TIN_SHARD_BLOCK.get())      
+                .add(ModBlocks.TIN_SHARD_BLOCK.get())       
+                
+                .add(ModBlocks.BUDDING_ZINC.get())
+                .add(ModBlocks.ZINC_SHARD_BLOCK.get())      
                 
                 .add(ModBlocks.BUDDING_COPPER.get())
                 .add(ModBlocks.COPPER_SHARD_BLOCK.get())
@@ -59,6 +62,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.BUDDING_ALUMINUM.get())
                 .add(ModBlocks.ALUMINUM_SHARD_BLOCK.get())  
                 
+                .add(ModBlocks.BUDDING_LEAD.get())
+                .add(ModBlocks.LEAD_SHARD_BLOCK.get())  
+                
+                .add(ModBlocks.BUDDING_NICKEL.get())
+                .add(ModBlocks.NICKEL_SHARD_BLOCK.get())  
+                
                 .add(ModBlocks.BUDDING_GLOWSTONE.get())
                 .add(ModBlocks.GLOWSTONE_SHARD_BLOCK.get());
 
@@ -70,7 +79,28 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.LARGE_TIN_BUD.get())
                 .add(ModBlocks.TIN_CLUSTER.get())
                 .add(ModBlocks.BUDDING_TIN.get())
-                .add(ModBlocks.TIN_SHARD_BLOCK.get()) 
+                .add(ModBlocks.TIN_SHARD_BLOCK.get())
+                
+                .add(ModBlocks.SMALL_ZINC_BUD.get())
+                .add(ModBlocks.MEDIUM_ZINC_BUD.get())
+                .add(ModBlocks.LARGE_ZINC_BUD.get())
+                .add(ModBlocks.ZINC_CLUSTER.get())
+                .add(ModBlocks.BUDDING_ZINC.get())
+                .add(ModBlocks.ZINC_SHARD_BLOCK.get()) 
+                
+                .add(ModBlocks.SMALL_LEAD_BUD.get())
+                .add(ModBlocks.MEDIUM_LEAD_BUD.get())
+                .add(ModBlocks.LARGE_LEAD_BUD.get())
+                .add(ModBlocks.LEAD_CLUSTER.get())
+                .add(ModBlocks.BUDDING_LEAD.get())
+                .add(ModBlocks.LEAD_SHARD_BLOCK.get()) 
+                
+                .add(ModBlocks.SMALL_NICKEL_BUD.get())
+                .add(ModBlocks.MEDIUM_NICKEL_BUD.get())
+                .add(ModBlocks.LARGE_NICKEL_BUD.get())
+                .add(ModBlocks.NICKEL_CLUSTER.get())
+                .add(ModBlocks.BUDDING_NICKEL.get())
+                .add(ModBlocks.NICKEL_SHARD_BLOCK.get()) 
 
                 .add(ModBlocks.SMALL_ALUMINUM_BUD.get())
                 .add(ModBlocks.MEDIUM_ALUMINUM_BUD.get())

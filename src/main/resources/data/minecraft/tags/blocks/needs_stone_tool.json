@@ -2,6 +2,8 @@
   "values": [
     "geodeopolis:budding_tin",
     "geodeopolis:tin_shard_block",
+    "geodeopolis:budding_zinc",
+    "geodeopolis:zinc_shard_block",
     "geodeopolis:budding_copper",
     "geodeopolis:copper_shard_block",
     "geodeopolis:budding_debris",
@@ -28,6 +30,10 @@
     "geodeopolis:emerald_shard_block",
     "geodeopolis:budding_aluminum",
     "geodeopolis:aluminum_shard_block",
+    "geodeopolis:budding_lead",
+    "geodeopolis:lead_shard_block",
+    "geodeopolis:budding_nickel",
+    "geodeopolis:nickel_shard_block",
     "geodeopolis:budding_glowstone",
     "geodeopolis:glowstone_shard_block"
   ]

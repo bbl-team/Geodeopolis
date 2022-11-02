@@ -28,6 +28,27 @@ public class ModBlockStatesProvider extends BlockStateProvider {
         directionalBlock(ModBlocks.MEDIUM_TIN_BUD.get(), models().cross("medium_tin_bud", modLoc("block/medium_tin_bud")).renderType("cutout"));
         directionalBlock(ModBlocks.LARGE_TIN_BUD.get(), models().cross("large_tin_bud", modLoc("block/large_tin_bud")).renderType("cutout"));
         directionalBlock(ModBlocks.TIN_CLUSTER.get(), models().cross("tin_cluster", modLoc("block/tin_cluster")).renderType("cutout"));
+        
+        simpleBlock(ModBlocks.BUDDING_ZINC.get());
+        simpleBlock(ModBlocks.ZINC_SHARD_BLOCK.get());
+        directionalBlock(ModBlocks.SMALL_ZINC_BUD.get(), models().cross("small_zinc_bud", modLoc("block/small_zinc_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.MEDIUM_ZINC_BUD.get(), models().cross("medium_zinc_bud", modLoc("block/medium_zinc_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.LARGE_ZINC_BUD.get(), models().cross("large_zinc_bud", modLoc("block/large_zinc_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.ZINC_CLUSTER.get(), models().cross("zinc_cluster", modLoc("block/zinc_cluster")).renderType("cutout"));
+        
+        simpleBlock(ModBlocks.BUDDING_LEAD.get());
+        simpleBlock(ModBlocks.LEAD_SHARD_BLOCK.get());
+        directionalBlock(ModBlocks.SMALL_LEAD_BUD.get(), models().cross("small_lead_bud", modLoc("block/small_lead_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.MEDIUM_LEAD_BUD.get(), models().cross("medium_lead_bud", modLoc("block/medium_lead_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.LARGE_LEAD_BUD.get(), models().cross("large_lead_bud", modLoc("block/large_lead_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.LEAD_CLUSTER.get(), models().cross("lead_cluster", modLoc("block/lead_cluster")).renderType("cutout"));
+        
+        simpleBlock(ModBlocks.BUDDING_NICKEL.get());
+        simpleBlock(ModBlocks.NICKEL_SHARD_BLOCK.get());
+        directionalBlock(ModBlocks.SMALL_NICKEL_BUD.get(), models().cross("small_nickel_bud", modLoc("block/small_nickel_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.MEDIUM_NICKEL_BUD.get(), models().cross("medium_nickel_bud", modLoc("block/medium_nickel_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.LARGE_NICKEL_BUD.get(), models().cross("large_nickel_bud", modLoc("block/large_nickel_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.NICKEL_CLUSTER.get(), models().cross("nickel_cluster", modLoc("block/nickel_cluster")).renderType("cutout"));
        
         simpleBlock(ModBlocks.BUDDING_GLOWSTONE.get());
         simpleBlock(ModBlocks.GLOWSTONE_SHARD_BLOCK.get());

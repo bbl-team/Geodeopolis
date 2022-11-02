@@ -35,6 +35,30 @@ public class ModItemModelProvider extends ItemModelProvider {
         shardItem(ModBlocks.MEDIUM_TIN_BUD);
         shardItem(ModBlocks.LARGE_TIN_BUD);
 
+        simpleItem(ModItems.LEAD_SHARD);
+        simpleBlock(ModBlocks.BUDDING_LEAD);
+        simpleBlock(ModBlocks.LEAD_SHARD_BLOCK);
+        shardItem(ModBlocks.LEAD_CLUSTER);
+        shardItem(ModBlocks.SMALL_LEAD_BUD);
+        shardItem(ModBlocks.MEDIUM_LEAD_BUD);
+        shardItem(ModBlocks.LARGE_LEAD_BUD);
+        
+        simpleItem(ModItems.ZINC_SHARD);
+        simpleBlock(ModBlocks.BUDDING_ZINC);
+        simpleBlock(ModBlocks.ZINC_SHARD_BLOCK);
+        shardItem(ModBlocks.ZINC_CLUSTER);
+        shardItem(ModBlocks.SMALL_ZINC_BUD);
+        shardItem(ModBlocks.MEDIUM_ZINC_BUD);
+        shardItem(ModBlocks.LARGE_ZINC_BUD);
+
+        simpleItem(ModItems.NICKEL_SHARD);
+        simpleBlock(ModBlocks.BUDDING_NICKEL);
+        simpleBlock(ModBlocks.NICKEL_SHARD_BLOCK);
+        shardItem(ModBlocks.NICKEL_CLUSTER);
+        shardItem(ModBlocks.SMALL_NICKEL_BUD);
+        shardItem(ModBlocks.MEDIUM_NICKEL_BUD);
+        shardItem(ModBlocks.LARGE_NICKEL_BUD);
+
         simpleItem(ModItems.GLOWSTONE_SHARD);
         simpleBlock(ModBlocks.BUDDING_GLOWSTONE);
         simpleBlock(ModBlocks.GLOWSTONE_SHARD_BLOCK);

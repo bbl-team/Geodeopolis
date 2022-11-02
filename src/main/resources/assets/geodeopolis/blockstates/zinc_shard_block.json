@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "geodeopolis:block/zinc_shard_block"
+    }
+  }
+}
