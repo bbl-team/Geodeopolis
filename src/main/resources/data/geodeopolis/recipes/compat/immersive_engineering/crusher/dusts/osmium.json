@@ -1,8 +1,8 @@
 {
     "type":"immersiveengineering:crusher",
-    "conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:dusts/osmium"}}],
     "energy":3000,
     "input":{"item":"geodeopolis:osmium_cluster"},
-    "result":{"base_ingredient":{"tag":"forge:dusts/osmium"},
-    "count":2},
-    "secondaries":[]}
+    "result":{"base_ingredient":{"item":"geodeopolis:osmium_shard"},
+    "count":6},
+    "secondaries":[]
+}

@@ -122,6 +122,14 @@
   "block.geodeopolis.large_iron_bud": "Large Iron Bud",
   "block.geodeopolis.iron_cluster": "Iron Cluster", 
 
+  "item.geodeopolis.lapis_shard": "Lapis Shard",
+  "block.geodeopolis.budding_lapis": "Budding Lapis",
+  "block.geodeopolis.lapis_shard_block": "Lapis Shard Block",
+  "block.geodeopolis.small_lapis_bud": "Small Lapis Bud",
+  "block.geodeopolis.medium_lapis_bud": "Medium Lapis Bud",
+  "block.geodeopolis.large_lapis_bud": "Large Lapis Bud",
+  "block.geodeopolis.lapis_cluster": "Lapis Cluster", 
+
   "item.geodeopolis.osmium_shard": "Osmium Shard",
   "block.geodeopolis.budding_osmium": "Budding Osmium",
   "block.geodeopolis.osmium_shard_block": "Osmium Shard Block",
@@ -146,5 +154,5 @@
   "block.geodeopolis.large_uranium_bud": "Large Uranium Bud",
   "block.geodeopolis.uranium_cluster": "Uranium Cluster",
 
-  "itemGroup.Cosmopolis": "Geodeopolis"
+  "itemGroup.geodeopolis": "Geodeopolis"
 }

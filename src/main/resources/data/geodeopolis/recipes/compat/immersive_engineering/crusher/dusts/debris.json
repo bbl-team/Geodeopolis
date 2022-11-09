@@ -1,8 +1,8 @@
 {
     "type":"immersiveengineering:crusher",
-    "conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/netherite"}}],
     "energy":3000,
     "input":{"item":"geodeopolis:debris_cluster"},
-    "result":{"base_ingredient":{"item":"minecraft:netherite_scrap"},
-    "count":2},
-    "secondaries":[]}
+    "result":{"base_ingredient":{"item":"geodeopolis:debris_shard"},
+    "count":6},
+    "secondaries":[]
+}

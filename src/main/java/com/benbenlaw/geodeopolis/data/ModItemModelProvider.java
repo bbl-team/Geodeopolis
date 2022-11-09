@@ -43,6 +43,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         shardItem(ModBlocks.MEDIUM_LEAD_BUD);
         shardItem(ModBlocks.LARGE_LEAD_BUD);
         
+        simpleItem(ModItems.LAPIS_SHARD);
+        simpleBlock(ModBlocks.BUDDING_LAPIS);
+        simpleBlock(ModBlocks.LAPIS_SHARD_BLOCK);
+        shardItem(ModBlocks.LAPIS_CLUSTER);
+        shardItem(ModBlocks.SMALL_LAPIS_BUD);
+        shardItem(ModBlocks.MEDIUM_LAPIS_BUD);
+        shardItem(ModBlocks.LARGE_LAPIS_BUD);
+        
         simpleItem(ModItems.ZINC_SHARD);
         simpleBlock(ModBlocks.BUDDING_ZINC);
         simpleBlock(ModBlocks.ZINC_SHARD_BLOCK);

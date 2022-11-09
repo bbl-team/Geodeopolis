@@ -86,7 +86,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.LARGE_ZINC_BUD.get())
                 .add(ModBlocks.ZINC_CLUSTER.get())
                 .add(ModBlocks.BUDDING_ZINC.get())
-                .add(ModBlocks.ZINC_SHARD_BLOCK.get()) 
+                .add(ModBlocks.ZINC_SHARD_BLOCK.get())
+
+                .add(ModBlocks.SMALL_LAPIS_BUD.get())
+                .add(ModBlocks.MEDIUM_LAPIS_BUD.get())
+                .add(ModBlocks.LARGE_LAPIS_BUD.get())
+                .add(ModBlocks.LAPIS_CLUSTER.get())
+                .add(ModBlocks.BUDDING_LAPIS.get())
+                .add(ModBlocks.LAPIS_SHARD_BLOCK.get()) 
                 
                 .add(ModBlocks.SMALL_LEAD_BUD.get())
                 .add(ModBlocks.MEDIUM_LEAD_BUD.get())

@@ -1,0 +1,8 @@
+{
+    "type":"immersiveengineering:crusher",
+    "energy":3000,
+    "input":{"item":"geodeopolis:uranium_cluster"},
+    "result":{"base_ingredient":{"item":"geodeopolis:uranium_shard"},
+    "count":6},
+    "secondaries":[]
+}

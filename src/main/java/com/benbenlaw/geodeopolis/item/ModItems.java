@@ -20,6 +20,9 @@ public class ModItems {
     public static final RegistryObject<Item> ZINC_SHARD = ITEMS.register("zinc_shard",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
 
+    public static final RegistryObject<Item> LAPIS_SHARD = ITEMS.register("lapis_shard",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
+
     public static final RegistryObject<Item> GLOWSTONE_SHARD = ITEMS.register("glowstone_shard",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.GEODEOPOLIS)));
 

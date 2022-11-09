@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "geodeopolis:lapis_shard"
+    }
+  },
+  "result": {
+    "item": "geodeopolis:lapis_shard_block"
+  }
+}

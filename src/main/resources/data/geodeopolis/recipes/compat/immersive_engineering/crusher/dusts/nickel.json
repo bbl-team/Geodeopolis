@@ -1,8 +1,8 @@
 {
     "type":"immersiveengineering:crusher",
-    "conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:dusts/nickel"}}],
     "energy":3000,
     "input":{"item":"geodeopolis:nickel_cluster"},
-    "result":{"base_ingredient":{"tag":"forge:dusts/nickel"},
-    "count":2},
-    "secondaries":[]}
+    "result":{"base_ingredient":{"item":"geodeopolis:nickel_shard"},
+    "count":6},
+    "secondaries":[]
+}

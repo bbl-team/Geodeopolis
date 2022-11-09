@@ -49,6 +49,27 @@ public class ModBlocks {
 
 
 
+
+    public static final RegistryObject<Block> BUDDING_LAPIS = registerBlock("budding_lapis",
+            () -> new BuddingLapisBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).randomTicks().requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> LAPIS_SHARD_BLOCK = registerBlock("lapis_shard_block",
+            () -> new AmethystBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> LAPIS_CLUSTER = registerBlock("lapis_cluster",
+            () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5f).lightLevel((state) -> 5)));
+
+    public static final RegistryObject<Block> LARGE_LAPIS_BUD = registerBlock("large_lapis_bud",
+            () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(LAPIS_CLUSTER.get()).sound(SoundType.LARGE_AMETHYST_BUD).lightLevel((state) -> 4)));
+
+    public static final RegistryObject<Block> MEDIUM_LAPIS_BUD = registerBlock("medium_lapis_bud",
+            () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.copy(LAPIS_CLUSTER.get()).sound(SoundType.MEDIUM_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+    public static final RegistryObject<Block> SMALL_LAPIS_BUD = registerBlock("small_lapis_bud",
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(LAPIS_CLUSTER.get()).sound(SoundType.SMALL_AMETHYST_BUD).lightLevel((state) -> 2)));
+
+
+
     public static final RegistryObject<Block> BUDDING_ZINC = registerBlock("budding_zinc",
             () -> new BuddingZincBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).sound(SoundType.AMETHYST).randomTicks().requiresCorrectToolForDrops()));
 

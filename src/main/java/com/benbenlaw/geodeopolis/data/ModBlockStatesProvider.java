@@ -36,6 +36,13 @@ public class ModBlockStatesProvider extends BlockStateProvider {
         directionalBlock(ModBlocks.LARGE_ZINC_BUD.get(), models().cross("large_zinc_bud", modLoc("block/large_zinc_bud")).renderType("cutout"));
         directionalBlock(ModBlocks.ZINC_CLUSTER.get(), models().cross("zinc_cluster", modLoc("block/zinc_cluster")).renderType("cutout"));
         
+        simpleBlock(ModBlocks.BUDDING_LAPIS.get());
+        simpleBlock(ModBlocks.LAPIS_SHARD_BLOCK.get());
+        directionalBlock(ModBlocks.SMALL_LAPIS_BUD.get(), models().cross("small_lapis_bud", modLoc("block/small_lapis_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.MEDIUM_LAPIS_BUD.get(), models().cross("medium_lapis_bud", modLoc("block/medium_lapis_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.LARGE_LAPIS_BUD.get(), models().cross("large_lapis_bud", modLoc("block/large_lapis_bud")).renderType("cutout"));
+        directionalBlock(ModBlocks.LAPIS_CLUSTER.get(), models().cross("lapis_cluster", modLoc("block/lapis_cluster")).renderType("cutout"));
+        
         simpleBlock(ModBlocks.BUDDING_LEAD.get());
         simpleBlock(ModBlocks.LEAD_SHARD_BLOCK.get());
         directionalBlock(ModBlocks.SMALL_LEAD_BUD.get(), models().cross("small_lead_bud", modLoc("block/small_lead_bud")).renderType("cutout"));

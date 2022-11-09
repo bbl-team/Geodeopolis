@@ -1,0 +1,8 @@
+{
+    "type":"immersiveengineering:crusher",
+    "energy":3000,
+    "input":{"item":"geodeopolis:lapis_cluster"},
+    "result":{"base_ingredient":{"item":"geodeopolis:lapis_shard"},
+    "count":6},
+    "secondaries":[]
+}
