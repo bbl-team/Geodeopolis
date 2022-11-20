@@ -1,5 +1,6 @@
 {
     "type":"immersiveengineering:crusher",
+    "conditions": [{"type": "forge:mod_loaded", "modid": "immersiveengineering"}],
     "energy":3000,
     "input":{"item":"geodeopolis:iron_cluster"},
     "result":{"base_ingredient":{"item":"geodeopolis:iron_shard"},

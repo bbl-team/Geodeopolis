@@ -2,7 +2,7 @@
     "type":"immersiveengineering:crusher",
     "conditions": [{"type": "forge:mod_loaded", "modid": "immersiveengineering"}],
     "energy":3200,
-    "input":{"item":"geodeopolis:tin_shard_block"},
-    "result":{"count":4,"item":"geodeopolis:tin_shard"},
+    "input":{"item":"minecraft:amethyst_block"},
+    "result":{"count":4,"item":"minecraft:amethyst_shard"},
     "secondaries":[]
 }
